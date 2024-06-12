@@ -4,6 +4,7 @@ import Home from './Page/Home/Home';
 import Contact from './Page/Contact/Contact';
 import Header from './Component/Header/Header';
 import Form from './Component/Form/Form';
+import Weather from './Component/Weather/Weather';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         </Routes>
       </BrowserRouter>
       <Form/>
+      <Weather/>
     </>
   )
 }
