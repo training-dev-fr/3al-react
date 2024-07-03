@@ -3,7 +3,6 @@ import './App.css';
 import Home from './Page/Home/Home';
 import Contact from './Page/Contact/Contact';
 import Header from './Component/Header/Header';
-import Form from './Component/Form/Form';
 import Weather from './Component/Weather/Weather';
 
 
@@ -17,7 +16,6 @@ function App() {
           <Route path="/Contact" element={<Contact/>} />
         </Routes>
       </BrowserRouter>
-      <Form/>
       <Weather/>
     </>
   )
